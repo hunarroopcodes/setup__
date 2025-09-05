@@ -1,0 +1,19 @@
+{
+	"$schema": "https://json.schemastore.org/package.json",
+	"devDependencies": {},
+	"packageManager": "bun@1.2.21",
+	"peerDependencies": {},
+	"private": true,
+	"scripts": {},
+	"type": "module",
+	"workspaces": {
+		"catalog": {},
+		"catalogs": {
+			"dev": {},
+			"peer": {}
+		},
+		"packages": [
+			"packages/*"
+		]
+	}
+}
