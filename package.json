@@ -1,6 +1,8 @@
 {
 	"$schema": "https://json.schemastore.org/package.json",
-	"devDependencies": {},
+	"devDependencies": {
+		"@biomejs/biome": "catalog:dev"
+	},
 	"packageManager": "bun@1.2.21",
 	"peerDependencies": {},
 	"private": true,
