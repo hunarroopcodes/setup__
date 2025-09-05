@@ -9,7 +9,9 @@
 	"workspaces": {
 		"catalog": {},
 		"catalogs": {
-			"dev": {},
+			"dev": {
+				"@biomejs/biome": "^2.2.2"
+			},
 			"peer": {}
 		},
 		"packages": [
