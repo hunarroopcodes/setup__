@@ -6,6 +6,10 @@
         "@biomejs/biome": "catalog:dev",
       },
     },
+    "packages/setup-app": {
+      "name": "@hunarroopcodes/setup-app",
+      "version": "0.0.0",
+    },
   },
   "catalogs": {
     "dev": {
@@ -32,5 +36,7 @@
     "@biomejs/cli-win32-arm64": ["@biomejs/cli-win32-arm64@2.2.3", "", { "os": "win32", "cpu": "arm64" }, "sha512-Ms9zFYzjcJK7LV+AOMYnjN3pV3xL8Prxf9aWdDVL74onLn5kcvZ1ZMQswE5XHtnd/r/0bnUd928Rpbs14BzVmA=="],
 
     "@biomejs/cli-win32-x64": ["@biomejs/cli-win32-x64@2.2.3", "", { "os": "win32", "cpu": "x64" }, "sha512-gvCpewE7mBwBIpqk1YrUqNR4mCiyJm6UI3YWQQXkedSSEwzRdodRpaKhbdbHw1/hmTWOVXQ+Eih5Qctf4TCVOQ=="],
+
+    "@hunarroopcodes/setup-app": ["@hunarroopcodes/setup-app@workspace:packages/setup-app"],
   }
 }
